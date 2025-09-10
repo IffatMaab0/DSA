@@ -12,7 +12,7 @@ int DecToBen(int decNum){
 }
 int main(){
     int decNum;
-    cout<<"enter the number:";
-    cin>>decNum;
-    cout<<"The binary form is: "<<DecToBen(decNum);
+    for(int i=1 ; i<=10; i++){
+        cout<<"The binary form of "<< i <<" is: "<<DecToBen(i)<<endl;
+    }
 }
