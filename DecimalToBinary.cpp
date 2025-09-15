@@ -11,8 +11,9 @@ int DecToBen(int decNum){
     return ans;
 }
 int main(){
-    int decNum;
+    int decNum ;
     for(int i=1 ; i<=10; i++){
         cout<<"The binary form of "<< i <<" is: "<<DecToBen(i)<<endl;
     }
+    
 }
